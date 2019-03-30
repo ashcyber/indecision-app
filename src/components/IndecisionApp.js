@@ -5,6 +5,13 @@ import Header from './Header';
 import Options from './Options';
 import OptionModal from './OptionModal';
 
+/*
+  This is an example of using es6 classes that do not require manual 
+  binding, because use of arrow functions don't allow the function to have 
+  thier own this binding. Hence when an instance of the app is created with a reference 
+  variable; the binding of the instance changes to refer to the reference variable itself. 
+*/
+
 export default class IndecisionApp extends React.Component {
   state = {
     options: [],

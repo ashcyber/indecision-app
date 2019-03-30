@@ -1,8 +1,18 @@
 {
+  /*
+    presets let the babel compiler know 
+    what transformation of files are required 
+  */
   "presets": [
     "env",
     "react"
   ],
+
+  /*
+    uses new es6 feature to transform the normal 
+    javascript classes so as to obviate the 
+    need for manual bind function. 
+  */
   "plugins": [
     "transform-class-properties"
   ]

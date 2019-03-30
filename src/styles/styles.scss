@@ -7,3 +7,9 @@
 @import './components/modal';
 @import './components/option';
 @import './components/widget';
+
+/*
+    Main scss file that imports all the modules form individual partials 
+    ./components --> components specific styles 
+    ./base       --> base application styles consist of common variables 
+*/
