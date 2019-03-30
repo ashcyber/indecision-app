@@ -16,3 +16,4 @@ task easier.
 - yarn 
 
 ## Demo 
+![gif_demo](https://raw.githubusercontent.com/ashcyber/indecision-app/master/indecision-app.gif)
